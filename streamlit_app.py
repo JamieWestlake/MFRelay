@@ -1849,16 +1849,16 @@ with main_col:
                                     )
                 submit = st.form_submit_button("Submit")
 
-                  if submit:
+                if submit:
                     end_time = time.time()
                     time_taken = end_time - st.session_state.start_time
                     st.session_state.total_time += time_taken
                     st.session_state.attempted_count += 1
-                
+
                     # parse user input
                     if len(user_input) == 4 and user_input.isdigit():
                         user_dist = [int(d) for d in user_input]
-                
+
                         # find all correct answers for this sequence
                         possible = [
                             (answers[i][0], answers[i][1])
@@ -1866,30 +1866,26 @@ with main_col:
                             if seq == sequence
                         ]
 
-                if st.session_state.submitted:
-                    if st.form_submit_button("Next Hand ▶️"):
-                        new_hand()
-
-                    if st.form_submit_button("Next Hand ▶️"):
-                        new_hand()   
-                        
+                        # check if user’s answer matches any valid tuple
                         if any(user_dist == dist and user_type == kind for dist, kind in possible):
                             st.success("✅ Correct!")
                             st.session_state.correct_count += 1
                         else:
                             st.error("❌ Incorrect.")
+                            # show all acceptable answers
                             opts = [f"{dist} ({kind})" for dist, kind in possible]
                             st.write("Correct answers: " + " ⎜ ".join(opts))
                     else:
                         st.warning("Please enter exactly 4 digits.")
-                        st.session_state.attempted_count -= 1
+                        st.session_state.attempted_count -= 1  # ignore invalid
                         st.session_state.total_time -= time_taken
-                
+
                     st.session_state.submitted = True
-                
 
 with right_sidebar:
     if st.session_state.submitted:
+        # — Move‑On button at the very top —
+        st.button("Next Hand ▶️", on_click=new_hand)
 
         # — Then your stats —
         st.markdown("### 📊 Your Stats:")
