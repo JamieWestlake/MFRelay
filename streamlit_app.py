@@ -1885,7 +1885,6 @@ with main_col:
 with right_sidebar:
     if st.session_state.submitted:
         # — Move‑On button at the very top —
-        st.markdown("### ➡️ Move On?")
         st.button("Next Hand ▶️", on_click=new_hand)
 
         # — Then your stats —
