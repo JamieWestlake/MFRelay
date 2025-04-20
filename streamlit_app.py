@@ -1849,11 +1849,7 @@ with main_col:
                                     )
                 submit = st.form_submit_button("Submit")
 
-                if st.session_state.submitted:
-                    if st.form_submit_button("Next Hand ▶️"):
-                        new_hand()
-                
-                if submit:
+                  if submit:
                     end_time = time.time()
                     time_taken = end_time - st.session_state.start_time
                     st.session_state.total_time += time_taken
@@ -1869,7 +1865,11 @@ with main_col:
                             for i, seq in enumerate(bidding_sequences)
                             if seq == sequence
                         ]
-                        
+
+                if st.session_state.submitted:
+                    if st.form_submit_button("Next Hand ▶️"):
+                        new_hand()
+
                     if st.form_submit_button("Next Hand ▶️"):
                         new_hand()   
                         
