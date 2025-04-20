@@ -1841,7 +1841,12 @@ with main_col:
         if not st.session_state.submitted:
             with st.form(key="answer_form"):
                 user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
-                user_type = st.selectbox("Select type:", options=["min", "max"])
+                #user_type = st.selectbox("Select type:", options=["min", "max"])
+                user_type = st.radio(
+                                        "Select type:",
+                                        options=["min", "max"],
+                                        horizontal=True,
+                                    )
                 submit = st.form_submit_button("Submit")
 
                 if submit:
