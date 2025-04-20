@@ -1868,6 +1868,11 @@ with main_col:
 
                         # check if user’s answer matches any valid tuple
                         if any(user_dist == dist and user_type == kind for dist, kind in possible):
+
+                            if st.session_state.submitted:
+                                if st.form_submit_button("Next Hand ▶️"):
+                                    new_hand()
+        
                             st.success("✅ Correct!")
                             st.session_state.correct_count += 1
                         else:
@@ -1885,7 +1890,7 @@ with main_col:
 with right_sidebar:
     if st.session_state.submitted:
         # — Move‑On button at the very top —
-        st.button("Next Hand ▶️", on_click=new_hand)
+        # st.button("Next Hand ▶️", on_click=new_hand)
 
         # — Then your stats —
         st.markdown("### 📊 Your Stats:")
