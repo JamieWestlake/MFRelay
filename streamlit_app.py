@@ -1849,6 +1849,10 @@ with main_col:
                                     )
                 submit = st.form_submit_button("Submit")
 
+                if st.session_state.submitted:
+                    if st.form_submit_button("Next Hand ▶️"):
+                        new_hand()
+                
                 if submit:
                     end_time = time.time()
                     time_taken = end_time - st.session_state.start_time
@@ -1884,8 +1888,6 @@ with main_col:
 
 with right_sidebar:
     if st.session_state.submitted:
-        # — Move‑On button at the very top —
-        st.button("Next Hand ▶️", on_click=new_hand)
 
         # — Then your stats —
         st.markdown("### 📊 Your Stats:")
