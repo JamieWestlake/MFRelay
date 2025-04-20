@@ -14,6 +14,12 @@ OPENING_LABELS = {
 }
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
+[theme]
+base="dark"
+backgroundColor="#0a2540"    # ← your dark blue
+secondaryBackgroundColor="#112d4e"  # ← darker blue for sidebar and widgets
+textColor="#FFFFFF"           # white text
+
 # Sample data with suit symbols
 bidding_sequences = [
 f"1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}",
