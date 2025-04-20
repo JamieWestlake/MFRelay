@@ -1,5 +1,5 @@
 [theme]
-base = "dark"
-backgroundColor = "#4da8da"         # lighter marine blue
-secondaryBackgroundColor = "#0077b6" # slightly deeper blue for contrast (sidebar etc)
-textColor = "#ffffff"                # keep text white for readability
+base = "light"
+backgroundColor = "#f5f5dc"         # beige
+secondaryBackgroundColor = "#e0d8b0" # a slightly darker beige for sidebar and widgets
+textColor = "#333333"                # dark gray text for good readability
