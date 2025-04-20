@@ -1869,7 +1869,10 @@ with main_col:
                             for i, seq in enumerate(bidding_sequences)
                             if seq == sequence
                         ]
-                
+                        
+                    if st.form_submit_button("Next Hand ▶️"):
+                        new_hand()   
+                        
                         if any(user_dist == dist and user_type == kind for dist, kind in possible):
                             st.success("✅ Correct!")
                             st.session_state.correct_count += 1
@@ -1884,8 +1887,6 @@ with main_col:
                 
                     st.session_state.submitted = True
                 
-                    if st.form_submit_button("Next Hand ▶️"):
-                        new_hand()
 
 with right_sidebar:
     if st.session_state.submitted:
