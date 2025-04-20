@@ -14,11 +14,6 @@ OPENING_LABELS = {
 }
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
-[theme]
-base="dark"
-backgroundColor="#0a2540"    # ← your dark blue
-secondaryBackgroundColor="#112d4e"  # ← darker blue for sidebar and widgets
-textColor="#FFFFFF"           # white text
 
 # Sample data with suit symbols
 bidding_sequences = [
