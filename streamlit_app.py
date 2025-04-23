@@ -1,6 +1,7 @@
 import random
 import time
 import streamlit as st
+st.set_page_config(layout="wide")
 
 # Suit symbols with color
 SUITS = ['♠️', '❤️', '♦️', '♣️']
