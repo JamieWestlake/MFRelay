@@ -5328,29 +5328,33 @@ with main_col:
         # --- Form Submission ---
         if not st.session_state.submitted:
             with st.form(key="answer_form"):
-                user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
-                user_type = st.radio(
-                    "Select type:",
-                    options=["min", "max"],
-                    horizontal=True,
-                )
+                col1, col2, col3 = st.columns([1.5, 1, 1])
             
-                st.divider()
+                with col1:
+                    st.markdown("### 🧮 Bidding Info")
+                    user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
+                    user_type = st.radio("Select type:", ["min", "max"], horizontal=True)
             
-                st.markdown("### 🎯 Slam Bidding")
-                user_club_slam = st.text_input("Club Slam (e.g., 4C):")
-                user_diamond_slam = st.text_input("Diamond Slam (e.g., 4D or N.v.t.):")
-                user_heart_slam = st.text_input("Heart Slam (e.g., 3H or N.v.t.):")
-                user_spade_slam = st.text_input("Spade Slam (e.g., 3S):")
+                    # ✅ Move-on button here
+                    if st.session_state.submitted:
+                        st.button("Next Hand ▶️", on_click=new_hand)
             
-                st.markdown("### 🏆 Game Bidding")
-                user_heart_game = st.radio("Heart Game (4H available?)", ["Yes", "No"], horizontal=True)
-                user_spade_game = st.radio("Spade Game (4S available?)", ["Yes", "No"], horizontal=True)
-                user_club_game = st.radio("Club Game (5C available?)", ["Yes", "No"], horizontal=True)
-                user_diamond_game = st.radio("Diamond Game (5D available?)", ["Yes", "No"], horizontal=True)
+                with col2:
+                    st.markdown("### 🎯 Slam Bidding")
+                    user_club_slam = st.text_input("♣️ Club Slam", key="club_slam")
+                    user_diamond_slam = st.text_input("♦️ Diamond Slam", key="diamond_slam")
+                    user_heart_slam = st.text_input("♥️ Heart Slam", key="heart_slam")
+                    user_spade_slam = st.text_input("♠️ Spade Slam", key="spade_slam")
+            
+                with col3:
+                    st.markdown("### 🏆 Game Bidding")
+                    user_heart_game = st.radio("♥️ Heart Game (4H?)", ["Yes", "No"], horizontal=True)
+                    user_spade_game = st.radio("♠️ Spade Game (4S?)", ["Yes", "No"], horizontal=True)
+                    user_club_game = st.radio("♣️ Club Game (5C?)", ["Yes", "No"], horizontal=True)
+                    user_diamond_game = st.radio("♦️ Diamond Game (5D?)", ["Yes", "No"], horizontal=True)
             
                 submit = st.form_submit_button("Submit")
-            
+
                 if submit:
                     end_time = time.time()
                     time_taken = end_time - st.session_state.start_time
