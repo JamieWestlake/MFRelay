@@ -5329,31 +5329,35 @@ with main_col:
         if not st.session_state.submitted:
             with st.form(key="answer_form"):
                 col1, col2, col3 = st.columns([1.5, 1, 1])
-            
+                
                 with col1:
                     st.markdown("### 🧮 Bidding Info")
                     user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
                     user_type = st.radio("Select type:", ["min", "max"], horizontal=True)
-            
-                    # ✅ Move-on button here
-                    if st.session_state.submitted:
-                        st.button("Next Hand ▶️", on_click=new_hand)
-            
+                
                 with col2:
                     st.markdown("### 🎯 Slam Bidding")
                     user_club_slam = st.text_input("♣️ Club Slam", key="club_slam")
                     user_diamond_slam = st.text_input("♦️ Diamond Slam", key="diamond_slam")
                     user_heart_slam = st.text_input("♥️ Heart Slam", key="heart_slam")
                     user_spade_slam = st.text_input("♠️ Spade Slam", key="spade_slam")
-            
+                
                 with col3:
                     st.markdown("### 🏆 Game Bidding")
                     user_heart_game = st.radio("♥️ Heart Game (4H?)", ["Yes", "No"], horizontal=True)
                     user_spade_game = st.radio("♠️ Spade Game (4S?)", ["Yes", "No"], horizontal=True)
                     user_club_game = st.radio("♣️ Club Game (5C?)", ["Yes", "No"], horizontal=True)
                     user_diamond_game = st.radio("♦️ Diamond Game (5D?)", ["Yes", "No"], horizontal=True)
-            
+        
+                # ✅ Submit button — must be inside the form
                 submit = st.form_submit_button("Submit")
+        
+        # ✅ Place this *outside* the form, but below col1:
+        if st.session_state.submitted:
+            col1, _, _ = st.columns([1.5, 1, 1])
+            with col1:
+                st.button("Next Hand ▶️", on_click=new_hand)
+
 
                 if submit:
                     end_time = time.time()
