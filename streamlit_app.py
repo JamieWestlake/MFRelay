@@ -5251,17 +5251,22 @@ DiamondGame = (
 
 st.title("\U0001F0CF MancheForcing Relay Trainer")
 
-main_col, right_sidebar = st.columns([2, 1])
+main_col, right_sidebar = st.columns([5, 1])
 
 with main_col:
     st.sidebar.header("\U0001F3AF Filters")
+
+    selected_sections = st.sidebar.multiselect(
+        "Sections to answer:",
+        options=["Bidding Info", "Slam Bidding", "Game Bidding"],
+        default=["Bidding Info", "Slam Bidding", "Game Bidding"]
+    )
 
     unique_families = list({tuple(fam) for fam in families})
     selected_families = st.sidebar.multiselect("Family:", unique_families, default=unique_families)
 
     available_codes = [code for code in ORDERED_CODES if code in openings]
     available_labels = [OPENING_LABELS[code] for code in available_codes]
-
     selected_labels = st.sidebar.multiselect("Opening:", options=available_labels, default=available_labels)
     selected_codes = [code for code, label in OPENING_LABELS.items() if label in selected_labels]
 
@@ -5309,26 +5314,36 @@ with main_col:
 
     if not st.session_state.submitted:
         with st.form(key="answer_form"):
-            col1, col2, col3 = st.columns([1.5, 1, 1])
+            cols = st.columns([2, 2, 2])
+            col1, col2, col3 = cols
 
             with col1:
-                st.markdown("### \U0001F9EE Bidding Info")
-                user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
-                user_type = st.radio("Select type:", ["min", "max"], horizontal=True)
+                if "Bidding Info" in selected_sections:
+                    st.markdown("### \U0001F9EE Bidding Info")
+                    user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
+                    user_type = st.radio("Select type:", ["min", "max"], horizontal=True)
+                else:
+                    user_input = user_type = None
 
             with col2:
-                st.markdown("### \U0001F3AF Slam Bidding")
-                user_club_slam = st.text_input("♣️ Club Slam", key="club_slam")
-                user_diamond_slam = st.text_input("♦️ Diamond Slam", key="diamond_slam")
-                user_heart_slam = st.text_input("♥️ Heart Slam", key="heart_slam")
-                user_spade_slam = st.text_input("♠️ Spade Slam", key="spade_slam")
+                if "Slam Bidding" in selected_sections:
+                    st.markdown("### \U0001F3AF Slam Bidding")
+                    user_club_slam = st.text_input("♣️ Club Slam", key="club_slam")
+                    user_diamond_slam = st.text_input("♦️ Diamond Slam", key="diamond_slam")
+                    user_heart_slam = st.text_input("♥️ Heart Slam", key="heart_slam")
+                    user_spade_slam = st.text_input("♠️ Spade Slam", key="spade_slam")
+                else:
+                    user_club_slam = user_diamond_slam = user_heart_slam = user_spade_slam = None
 
             with col3:
-                st.markdown("### \U0001F3C6 Game Bidding")
-                user_heart_game = st.radio("♥️ Heart Game (4H?)", ["Yes", "No"], horizontal=True)
-                user_spade_game = st.radio("♠️ Spade Game (4S?)", ["Yes", "No"], horizontal=True)
-                user_club_game = st.radio("♣️ Club Game (5C?)", ["Yes", "No"], horizontal=True)
-                user_diamond_game = st.radio("♦️ Diamond Game (5D?)", ["Yes", "No"], horizontal=True)
+                if "Game Bidding" in selected_sections:
+                    st.markdown("### \U0001F3C6 Game Bidding")
+                    user_heart_game = st.radio("♥️ Heart Game (4H?)", ["Yes", "No"], horizontal=True)
+                    user_spade_game = st.radio("♠️ Spade Game (4S?)", ["Yes", "No"], horizontal=True)
+                    user_club_game = st.radio("♣️ Club Game (5C?)", ["Yes", "No"], horizontal=True)
+                    user_diamond_game = st.radio("♦️ Diamond Game (5D?)", ["Yes", "No"], horizontal=True)
+                else:
+                    user_heart_game = user_spade_game = user_club_game = user_diamond_game = None
 
             submit = st.form_submit_button("Submit")
 
@@ -5338,38 +5353,38 @@ with main_col:
             st.session_state.total_time += time_taken
             st.session_state.attempted_count += 1
 
-            distribution_ok = False
-            if len(user_input) == 4 and user_input.isdigit():
-                user_dist = [int(d) for d in user_input]
-                possible = [
-                    (answers[i][0], answers[i][1])
-                    for i, seq in enumerate(bidding_sequences)
-                    if seq == sequence
-                ]
-                distribution_ok = any(user_dist == dist and user_type == kind for dist, kind in possible)
-            else:
-                st.warning("Please enter exactly 4 digits.")
-                st.session_state.attempted_count -= 1
-                st.session_state.total_time -= time_taken
-                st.session_state.submitted = True
-                st.stop()
+            distribution_ok = slam_ok = game_ok = True
 
-            slam_ok = (
-                user_club_slam.strip() == ClubSlam[index] and
-                user_diamond_slam.strip() == DiamondSlam[index] and
-                user_heart_slam.strip() == HeartSlam[index] and
-                user_spade_slam.strip() == SpadeSlam[index]
-            )
+            if "Bidding Info" in selected_sections:
+                distribution_ok = False
+                if user_input and len(user_input) == 4 and user_input.isdigit():
+                    user_dist = [int(d) for d in user_input]
+                    possible = [(answers[i][0], answers[i][1]) for i, seq in enumerate(bidding_sequences) if seq == sequence]
+                    distribution_ok = any(user_dist == dist and user_type == kind for dist, kind in possible)
+                else:
+                    st.warning("Please enter exactly 4 digits.")
+                    st.session_state.attempted_count -= 1
+                    st.session_state.total_time -= time_taken
+                    st.session_state.submitted = True
+                    st.stop()
 
-            def yn_to_val(val, expected):
-                return (val == "Yes" and expected != 'N.v.t.') or (val == "No" and expected == 'N.v.t.')
+            if "Slam Bidding" in selected_sections:
+                slam_ok = (
+                    user_club_slam.strip() == ClubSlam[index] and
+                    user_diamond_slam.strip() == DiamondSlam[index] and
+                    user_heart_slam.strip() == HeartSlam[index] and
+                    user_spade_slam.strip() == SpadeSlam[index]
+                )
 
-            game_ok = (
-                yn_to_val(user_heart_game, HeartGame[index]) and
-                yn_to_val(user_spade_game, SpadeGame[index]) and
-                yn_to_val(user_club_game, ClubGame[index]) and
-                yn_to_val(user_diamond_game, DiamondGame[index])
-            )
+            if "Game Bidding" in selected_sections:
+                def yn_to_val(val, expected):
+                    return (val == "Yes" and expected != 'N.v.t.') or (val == "No" and expected == 'N.v.t.')
+                game_ok = (
+                    yn_to_val(user_heart_game, HeartGame[index]) and
+                    yn_to_val(user_spade_game, SpadeGame[index]) and
+                    yn_to_val(user_club_game, ClubGame[index]) and
+                    yn_to_val(user_diamond_game, DiamondGame[index])
+                )
 
             if distribution_ok and slam_ok and game_ok:
                 st.success("\u2705 Correct!")
@@ -5390,7 +5405,7 @@ with main_col:
             st.session_state.submitted = True
 
     if st.session_state.submitted:
-        col1, _, _ = st.columns([1.5, 1, 1])
+        col1, _, _ = st.columns([2, 1, 1])
         with col1:
             st.button("Next Hand ▶️", on_click=new_hand)
 
@@ -5405,3 +5420,4 @@ with right_sidebar:
 
         st.metric("Score", f"{st.session_state.correct_count}/{st.session_state.attempted_count}", delta=f"{accuracy:.1f}%")
         st.metric("Avg time/hand", f"{avg_time:.2f}s")
+
