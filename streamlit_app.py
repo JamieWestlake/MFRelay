@@ -5312,6 +5312,11 @@ with main_col:
     st.markdown("### Bidding Sequence:")
     st.write(sequence)
 
+    # 🧠 Show Bidding Info answers if it's deselected (to help with other sections)
+    if "Bidding Info" not in selected_sections:
+        st.markdown("**Bidding Info (for reference):**")
+        st.write(f"Distribution: {correct_distribution} ({correct_type})")
+
     if not st.session_state.submitted:
         with st.form(key="answer_form"):
             cols = st.columns([2, 2, 2])
@@ -5369,11 +5374,16 @@ with main_col:
                     st.stop()
 
             if "Slam Bidding" in selected_sections:
+                def slam_match(user_val, correct_val):
+                    return (
+                        (correct_val == 'N.v.t.' and (not user_val or user_val.strip().lower() == "no"))
+                        or (user_val.strip() == correct_val)
+                    )
                 slam_ok = (
-                    user_club_slam.strip() == ClubSlam[index] and
-                    user_diamond_slam.strip() == DiamondSlam[index] and
-                    user_heart_slam.strip() == HeartSlam[index] and
-                    user_spade_slam.strip() == SpadeSlam[index]
+                    slam_match(user_club_slam, ClubSlam[index]) and
+                    slam_match(user_diamond_slam, DiamondSlam[index]) and
+                    slam_match(user_heart_slam, HeartSlam[index]) and
+                    slam_match(user_spade_slam, SpadeSlam[index])
                 )
 
             if "Game Bidding" in selected_sections:
@@ -5420,4 +5430,5 @@ with right_sidebar:
 
         st.metric("Score", f"{st.session_state.correct_count}/{st.session_state.attempted_count}", delta=f"{accuracy:.1f}%")
         st.metric("Avg time/hand", f"{avg_time:.2f}s")
+
 
