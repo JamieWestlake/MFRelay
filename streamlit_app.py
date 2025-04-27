@@ -30,7 +30,6 @@ for idx, suit in enumerate(SUITS):
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
 df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("// \\n\\n", "\n")
-df['Strength'] = df['Strength'].str.replace(" ")
 
 # Parse Shape and Family properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
