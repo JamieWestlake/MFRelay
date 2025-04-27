@@ -17,8 +17,12 @@ OPENING_LABELS = {
 }
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
-# Load database
+# Load database safely
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig")
+df.columns = df.columns.str.strip()  # Clean up weird spaces
+
+# Uncomment this if you want to debug the columns
+st.write(df.columns.tolist())
 
 # Preprocess shape into list of ints
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
