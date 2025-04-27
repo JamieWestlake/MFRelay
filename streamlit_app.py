@@ -31,13 +31,15 @@ df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[0]}", "♠
 df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[1]}", "❤️")
 df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[2]}", "♦️")
 df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[3]}", "♣️")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
+df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
 
 # Now parse the 'Shape' column properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
 
 # Extract columns
 bidding_sequences = df['Bidding Sequences'].tolist()
-families = df['Shape'].tolist()
+families = df['Family'].apply(lambda x: list(map(int, x.strip('[]').split(',')))).tolist()
 openings = df['Opening'].tolist()
 answers = list(zip(df['Shape'], df['Strength']))
 ClubSlam = df['ClubSlam'].tolist()
