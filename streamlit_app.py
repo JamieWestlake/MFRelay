@@ -5,41 +5,33 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-# Suit symbols
+# Suit Symbols
 SUITS = ['♠️', '❤️', '♦️', '♣️']
 
-# Opening label mapping
-OPENING_LABELS = {
-    "1C": f"1{SUITS[3]}",
-    "1D": f"1{SUITS[2]}",
-    "1H": f"1{SUITS[1]}",
-    "1S": f"1{SUITS[0]}",
-}
-ORDERED_CODES = ["1C", "1D", "1H", "1S"]
-
-# Load database safely
+# Load CSV properly
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig", sep=";")
-
-# Clean header names
 df.columns = df.columns.str.strip()
-
-# Rename first column properly
 df = df.rename(columns={df.columns[0]: "Bidding Sequences"})
 
-# Replace placeholders like {SUITS[3]} with actual suit symbols
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[0]}", "♠️")
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[1]}", "❤️")
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[2]}", "♦️")
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[3]}", "♣️")
+# Replace placeholders in bidding sequences
+for idx, suit in enumerate(SUITS):
+    df['Bidding Sequences'] = df['Bidding Sequences'].str.replace(f"{{SUITS[{idx}]}}", suit)
+
+# Clean up formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
 
-# Now parse the 'Shape' column properly
+# Parse Shape column
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
 
-# Extract columns
+# Parse Family column correctly (dash-separated)
+def parse_family(x):
+    return list(map(int, x.strip().split('-')))
+
+families = df['Family'].apply(parse_family).tolist()
+
+# Extract rest of the columns
 bidding_sequences = df['Bidding Sequences'].tolist()
-families = df['Family'].apply(lambda x: list(map(int, x.strip('[]').split(',')))).tolist()
 openings = df['Opening'].tolist()
 answers = list(zip(df['Shape'], df['Strength']))
 ClubSlam = df['ClubSlam'].tolist()
