@@ -125,7 +125,7 @@ with main_col:
 
             with col1:
                 if "Bidding Info" in selected_sections:
-                    st.markdown("### \U0001F9EE Bidding Info")
+                    st.markdown("### 🧠 Bidding Info")
                     user_input = st.text_input("Enter distribution as 4 digits (♠️♥️♦️♣️):", max_chars=4)
                     user_type = st.radio("Select type:", ["min", "max"], horizontal=True)
                 else:
@@ -133,7 +133,7 @@ with main_col:
 
             with col2:
                 if "Slam Bidding" in selected_sections:
-                    st.markdown("### \U0001F3AF Slam Bidding")
+                    st.markdown("### 🎯 Slam Bidding")
                     user_club_slam = st.text_input("♣️ Club Slam", key="club_slam")
                     user_diamond_slam = st.text_input("♦️ Diamond Slam", key="diamond_slam")
                     user_heart_slam = st.text_input("♥️ Heart Slam", key="heart_slam")
@@ -143,7 +143,7 @@ with main_col:
 
             with col3:
                 if "Game Bidding" in selected_sections:
-                    st.markdown("### \U0001F3C6 Game Bidding")
+                    st.markdown("### 🏆 Game Bidding")
                     user_heart_game = st.radio("♥️ Heart Game (4H?)", ["Yes", "No"], horizontal=True)
                     user_spade_game = st.radio("♠️ Spade Game (4S?)", ["Yes", "No"], horizontal=True)
                     user_club_game = st.radio("♣️ Club Game (5C?)", ["Yes", "No"], horizontal=True)
@@ -228,10 +228,10 @@ with main_col:
                     incorrect_sections.append("Game Bidding")
 
             if correct_sections and not incorrect_sections:
-                st.success("\u2705 All sections correct!")
+                st.success("✅ All sections correct!")
                 st.session_state.correct_count += 1
             else:
-                st.error("\u274C Incorrect.")
+                st.error("❌ Incorrect.")
                 if correct_sections:
                     st.info(f"✅ Correct sections: {', '.join(correct_sections)}")
                 if incorrect_sections:
@@ -248,7 +248,21 @@ with main_col:
                 st.write(f"Club Game: {'Yes' if ClubGame[index] != 'N.v.t.' else 'No'}")
                 st.write(f"Diamond Game: {'Yes' if DiamondGame[index] != 'N.v.t.' else 'No'}")
 
+# Now sidebar for stats!
+with right_sidebar:
     if st.session_state.submitted:
-        col1, col2, col3 = st.columns([2, 1, 1])
-        with col1:
-            st.button("Next Hand ▶️", on_click=new_hand)
+        st.markdown("### 📊 Your Stats:")
+        if st.session_state.attempted_count > 0:
+            accuracy = (st.session_state.correct_count / st.session_state.attempted_count) * 100
+            avg_time = (st.session_state.total_time / st.session_state.attempted_count)
+        else:
+            accuracy, avg_time = 0.0, 0.0
+
+        st.metric("Score", f"{st.session_state.correct_count}/{st.session_state.attempted_count}", delta=f"{accuracy:.1f}%")
+        st.metric("Avg time/hand", f"{avg_time:.2f}s")
+
+# And button to move on
+if st.session_state.submitted:
+    col1, col2, col3 = st.columns([2, 1, 1])
+    with col1:
+        st.button("Next Hand ▶️", on_click=new_hand)
