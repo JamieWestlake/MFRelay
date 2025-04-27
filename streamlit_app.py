@@ -29,6 +29,7 @@ for idx, suit in enumerate(SUITS):
 # Clean up bidding sequence formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("\\n\\n", "\n", regex=False)
 df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("//", "//\n", regex=False)
 
 # Parse Shape and Family properly
@@ -248,18 +249,4 @@ with main_col:
                 st.write(f"Diamond Game: {'Yes' if DiamondGame[index] != 'N.v.t.' else 'No'}")
 
     if st.session_state.submitted:
-        col1, _, _ = st.columns([2, 1, 1])
-        with col1:
-            st.button("Next Hand ▶️", on_click=new_hand)
-
-with right_sidebar:
-    if st.session_state.submitted:
-        st.markdown("### \U0001F4CA Your Stats:")
-        if st.session_state.attempted_count > 0:
-            accuracy = (st.session_state.correct_count / st.session_state.attempted_count) * 100
-            avg_time = (st.session_state.total_time / st.session_state.attempted_count)
-        else:
-            accuracy, avg_time = 0.0, 0.0
-
-        st.metric("Score", f"{st.session_state.correct_count}/{st.session_state.attempted_count}", delta=f"{accuracy:.1f}%")
-        st.metric("Avg time/hand", f"{avg_time:.2f}s")
+        col1, _,_
