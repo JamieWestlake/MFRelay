@@ -112,7 +112,7 @@ with main_col:
     correct_distribution, correct_type = answers[index]
 
     st.markdown("### Bidding Sequence:")
-    st.markdown(f"```text\n{sequence}\n```")
+    st.markdown(sequence.replace("\n", "  \n"))
 
     if "Bidding Info" not in selected_sections:
         st.markdown("**Bidding Info (for reference):**")
