@@ -5,6 +5,17 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
+DEBUG = True  # 👈 set to True if you want debug output
+
+if DEBUG:
+    st.markdown("---")
+    st.subheader("🔍 Debug info")
+    st.write(f"Your reordered distribution: {user_dist_reordered}")
+    st.write(f"Your selected type: {user_type}")
+    st.write(f"Possible correct distributions and types for this sequence:")
+    st.write(possible_answers)
+    st.markdown("---")
+
 # Suit symbols
 SUITS = ['♠️', '❤️', '♦️', '♣️']
 
