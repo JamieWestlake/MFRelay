@@ -1,433 +1,433 @@
 ﻿Bidding Sequences;Shape;Strength;Opening;Family;ClubSlam;DiamondSlam;HeartSlam;SpadeSlam;HeartGame;SpadeGame;ClubGame;DiamondGame
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}""";[4,4,1,4]; Min;1C;4-4-4-1;4C;N.v.t.;3H;3S;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]}""";[4,1,4,4]; Min;1C;4-4-4-1;4C;4D;N.v.t.;3S;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,3,4,6]; Min;1C;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,1,6]; Min;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,2,7]; Min;1C;7-2-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,1,7]; Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,1,7]; Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,0,7]; Min;1C;7-3-3-0;4NT;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,3,6]; Min;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,3,7]; Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,2,7]; Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,3,7]; Min;1C;7-3-3-0;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,3,6]; Min;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,3,6]; Min;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,2,6]; Min;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,2,6]; Min;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,3,7]; Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,2,7]; Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,3,7]; Min;1C;7-3-3-0;4S;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,2,5]; Min;1C;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,1,5]; Min;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,3,5]; Min;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,4,5]; Min;1C;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,2,6]; Min;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,1,6]; Min;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,0,6]; Min;1C;6-4-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,3,6]; Min;1C;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,2,3,5]; Min;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,4,5]; Min;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,1,5]; Min;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,0,5]; Min;1C;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,3,4,5]; Min;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,3,5]; Min;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,2,4,5]; Min;1C;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,2,5]; Min;1C;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,4,5]; Min;1C;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,2,4,6]; Min;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,2,6]; Min;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,1,4,6]; Min;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,1,6]; Min;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,0,4,6]; Min;1C;6-4-3-0;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,0,6]; Min;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,3,6]; Min;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,3,3,5]; Min;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]} """;[3,3,2,5]; Min;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}""";[3,4,3,3]; Min;1C;4-3-3-3;4C;4D;3H;3S;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3NT // \n\n 4{SUITS[3]}""";[3,4,3,3]; Max;1C;4-3-3-3;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]}""";[4,3,3,3]; Min;1C;4-3-3-3;4D;4NT;4C;3S;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[4,3,3,3]; Max;1C;4-3-3-3;N.v.t.;N.v.t.;4NT;4D;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[3,3,4,3]; Min;1C;4-3-3-3;N.v.t.;4C;4D;4NT;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,3,3,4]; Min;1C;4-3-3-3;4C;N.v.t.;4D;4NT;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[3,3,3,4]; Max;1C;4-3-3-3;4D;N.v.t.;4NT;5H;4H;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[3,3,5,2]; Max;1C;5-3-3-2;N.v.t.;4D;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[3,2,5,3]; Max;1C;5-3-3-2;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[1]}""";[2,3,5,3]; Max;1C;5-3-3-2;N.v.t.;4S;N.v.t.;N.v.t.;Pass;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4NT""";[3,3,4,3]; Max;1C;4-3-3-3;N.v.t.;5H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]}""";[3,4,2,4]; Min;1C;4-4-3-2;4C;N.v.t.;3S;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[3,4,2,4]; Max;1C;4-4-3-2;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,3,4]; Min;1C;4-4-3-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[2,4,3,4]; Max;1C;4-4-3-2;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[2,4,4,3]; Min;1C;4-4-3-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,4,4,3]; Max;1C;4-4-3-2;N.v.t.;4S;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[3,4,4,2]; Min;1C;4-4-3-2;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[3,4,4,2]; Max;1C;4-4-3-2;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]}""";[3,2,4,4]; Min;1C;4-4-3-2;3S;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[3,2,4,4]; Max;1C;4-4-3-2;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[2,3,4,4]; Min;1C;4-4-3-2;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[2,3,4,4]; Max;1C;4-4-3-2;4D;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]}""";[4,3,2,4]; Min;1C;4-4-3-2;4C;N.v.t.;N.v.t.;3S;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[4,3,2,4]; Max;1C;4-4-3-2;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,3,4]; Min;1C;4-4-3-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[4,2,3,4]; Max;1C;4-4-3-2;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,2,4,3]; Min;1C;4-4-3-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,2,4,3]; Max;1C;4-4-3-2;N.v.t.;4H;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,3,4,2]; Min;1C;4-4-3-2;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[4,3,4,2]; Max;1C;4-4-3-2;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]}""";[4,4,3,2]; Min;1C;4-4-3-2;N.v.t.;N.v.t.;3S;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[4,4,3,2]; Max;1C;4-4-3-2;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,4,2,3]; Min;1C;4-4-3-2;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[4,4,2,3]; Max;1C;4-4-3-2;N.v.t.;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}""";[4,4,1,4]; Max;1C;4-4-4-1;4C;N.v.t.;3H;3S;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,4,5]; Max;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,3,4,5]; Max;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]}""";[4,1,4,4]; Max;1C;4-4-4-1;4C;4D;N.v.t.;3S;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,1,4,6]; Max;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,2,4,6]; Max;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,0,4,6]; Max;1C;6-4-3-0;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[3,3,2,5]; Max;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]}- 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,2,4,5]; Max;1C;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[1,4,4,4]; Max;1C;4-4-4-1;4D;4S;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,3,4,6]; Max;1C;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,1,6]; Max;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,2,7]; Max;1C;7-2-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,1,7]; Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,1,7]; Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,0,7]; Max;1C;7-3-3-0;4NT;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,3,6]; Max;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,3,7]; Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,2,7]; Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,3,7]; Max;1C;7-3-3-0;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,3,6]; Max;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,3,6]; Max;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,2,6]; Max;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,2,6]; Max;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,3,7]; Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,2,7]; Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,3,7]; Max;1C;7-3-3-0;4S;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,1,5]; Max;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,3,5]; Max;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,2,5]; Max;1C;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,4,5]; Max;1C;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,2,6]; Max;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,1,6]; Max;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,0,6]; Max;1C;6-4-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,3,6]; Max;1C;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,2,3,5]; Max;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,1,5]; Max;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,0,5]; Max;1C;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,3,5]; Max;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,2,5]; Max;1C;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,4,5]; Max;1C;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,2,6]; Max;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,1,6]; Max;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,0,6]; Max;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,3,6]; Max;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[0]}""";[2,3,3,5]; Max;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,6,1]; Min;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,7,2]; Min;1D;7-2-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,7,1]; Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,7,1]; Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,7,0]; Min;1D;7-3-3-0;N.v.t.;4NT;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,6,3]; Min;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,7,3]; Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,7,2]; Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,7,3]; Min;1D;7-3-3-0;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,6,3]; Min;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,6,3]; Min;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,6,2]; Min;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,6,2]; Min;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,7,3]; Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,7,2]; Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,7,3]; Min;1D;7-3-3-0;N.v.t.;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,5,2]; Min;1D;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,5,1]; Min;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,5,3]; Min;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,5,4]; Min;1D;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,6,2]; Min;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,6,1]; Min;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,6,0]; Min;1D;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,6,3]; Min;1D;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,2,5,3]; Min;1D;5-3-3-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,5,1]; Min;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,5,0]; Min;1D;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,5,3]; Min;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,5,2]; Min;1D;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,5,4]; Min;1D;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,6,2]; Min;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,6,1]; Min;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,6,0]; Min;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,6,3]; Min;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,3,5,3]; Min;1D;5-3-3-2;N.v.t.;4C;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,1,5,4]; Max;1D;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[1,3,5,4]; Max;1D;5-4-3-1;4D;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,1,6,4]; Max;1D;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[1,2,6,4]; Max;1D;6-4-2-1;4D;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,6,4]; Max;1D;6-4-3-0;4H;4NT;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[1]}""";[0,3,6,4]; Max;1D;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;Pass;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[4,4,4,1]; Min;1D;4-4-4-1;N.v.t.;4NT;4C;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[2,2,5,4]; Max;1D;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[2,1,5,5]; Max;1D;5-5-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,0,5,5]; Max;1D;5-5-3-0;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,5,5]; Max;1D;5-5-2-1;4D;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,5,5]; Max;1D;5-5-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,3,5,4]; Min;1D;5-4-3-1;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,2,6,4]; Min;1D;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,3,6,4]; Min;1D;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} / 4{SUITS[3]}""";[3,0,5,5]; Min;1D;5-5-3-0;4H;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,1,5,5]; Min;1D;5-5-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3NT""";[1,2,5,5]; Min;1D;5-5-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]}""";[3,3,5,2]; Min;1D;5-3-3-2;N.v.t.;4C;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 4{SUITS[3]}""";[0,3,5,5]; Min;1D;5-5-3-0;4S;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,5,4]; Min;1D;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,2,5,4]; Min;1D;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,1,6,4]; Min;1D;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,0,6,4]; Min;1D;6-4-3-0;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,6,1]; Max;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,7,2]; Max;1D;7-2-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,7,1]; Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,7,1]; Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,7,0]; Max;1D;7-3-3-0;N.v.t.;4NT;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,6,3]; Max;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,7,3]; Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,7,2]; Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,7,3]; Max;1D;7-3-3-0;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,6,3]; Max;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,6,3]; Max;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,6,2]; Max;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,6,2]; Max;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,7,3]; Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,7,2]; Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,7,3]; Max;1D;7-3-3-0;N.v.t.;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,5,1]; Max;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,5,3]; Max;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,5,2]; Max;1D;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,5,4]; Max;1D;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,6,2]; Max;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,6,1]; Max;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,6,0]; Max;1D;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,6,3]; Max;1D;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[4,4,4,1]; Max;1D;4-4-4-1;N.v.t.;4NT;4C;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,5,1]; Max;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,5,0]; Max;1D;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,5,3]; Max;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,5,2]; Max;1D;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,5,4]; Max;1D;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,6,2]; Max;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,6,1]; Max;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,6,0]; Max;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,6,3]; Max;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[0]}""";[1,4,4,4]; Min;1D;4-4-4-1;4D;4S;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,6,3,1]; Min;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,7,2,2]; Min;1H;7-2-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,7,3,1]; Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,7,2,1]; Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,7,3,0]; Min;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,6,1,3]; Min;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,7,1,3]; Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,7,1,2]; Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,7,0,3]; Min;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,6,3,3]; Min;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,2,3]; Min;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,3,2]; Min;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,6,2,2]; Min;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,2,3]; Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,3,2]; Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,7,3,3]; Min;1H;7-3-3-0;N.v.t.;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,5,4,2]; Min;1H;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,5,4,1]; Min;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,5,4,3]; Min;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,5,4,4]; Min;1H;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,6,4,2]; Min;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,6,4,1]; Min;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,6,4,0]; Min;1H;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,6,4,3]; Min;1H;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,5,5,1]; Min;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,5,5,0]; Min;1H;5-5-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT""";[1,5,5,2]; Min;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,5,2,3]; Min;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[0,5,5,3]; Min;1H;5-5-3-0;N.v.t.;4S;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,5,3,1]; Min;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,5,4,0]; Min;1H;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,5,1,3]; Min;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,5,2,2]; Min;1H;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,5,0,4]; Min;1H;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,6,1,2]; Min;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,6,2,1]; Min;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,6,3,0]; Min;1H;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,6,0,3]; Min;1H;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,5,3,3]; Min;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]}""";[3,5,3,2]; Min;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,5,1,4]; Max;1H;5-4-3-1;4C;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[1,5,3,4]; Max;1H;5-4-3-1;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,6,1,4]; Max;1H;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[1,6,2,4]; Max;1H;6-4-2-1;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,6,0,4]; Max;1H;6-4-3-0;5D;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[1]}""";[0,6,3,4]; Max;1H;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;Pass;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[3,5,3,2]; Max;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[2,5,2,4]; Max;1H;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[2,5,1,5]; Max;1H;5-5-2-1;4C;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,5,0,5]; Max;1H;5-5-3-0;4C;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,5,2,5]; Max;1H;5-5-2-1;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,5,3,5]; Max;1H;5-5-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,5,1,4]; Min;1H;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,5,3,4]; Min;1H;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,5,2,4]; Min;1H;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,6,2,4]; Min;1H;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,6,1,4]; Min;1H;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,6,0,4]; Min;1H;6-4-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,6,3,4]; Min;1H;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,5,1,5]; Min;1H;5-5-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,5,0,5]; Min;1H;5-5-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3NT""";[1,5,2,5]; Min;1H;5-5-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 4{SUITS[3]}""";[0,5,3,5]; Min;1H;5-5-3-0;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,6,3,1]; Max;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,7,2,2]; Max;1H;7-2-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,7,3,1]; Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,7,2,1]; Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,7,3,0]; Max;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,6,1,3]; Max;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,7,1,3]; Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,7,1,2]; Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,7,0,3]; Max;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,6,3,3]; Max;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,2,3]; Max;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,3,2]; Max;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,6,2,2]; Max;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,2,3]; Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,3,2]; Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,7,3,3]; Max;1H;7-3-3-0;N.v.t.;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,5,4,1]; Max;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,5,4,3]; Max;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,5,4,2]; Max;1H;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,5,4,4]; Max;1H;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,6,4,2]; Max;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,6,4,1]; Max;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,6,4,0]; Max;1H;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,6,4,3]; Max;1H;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,5,5,1]; Max;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,5,5,0]; Max;1H;5-5-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT""";[1,5,5,2]; Max;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,5,2,3]; Max;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[0,5,5,3]; Max;1H;5-5-3-0;N.v.t.;4S;4D;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,5,3,1]; Max;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,5,4,0]; Max;1H;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,5,1,3]; Max;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,5,2,2]; Max;1H;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,5,0,4]; Max;1H;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,6,1,2]; Max;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,6,2,1]; Max;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,6,3,0]; Max;1H;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,6,0,3]; Max;1H;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
-"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,5,3,3]; Max;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,3,3,1]; Min;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[7,2,2,2]; Min;1S;7-2-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,2,3,1]; Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,3,2,1]; Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[7,3,3,0]; Min;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[6,3,1,3]; Min;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,2,1,3]; Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,3,1,2]; Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[7,3,0,3]; Min;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[6,1,3,3]; Min;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,2,3]; Min;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,3,2]; Min;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,3,2,2]; Min;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,2,3]; Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,3,2]; Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[7,0,3,3]; Min;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,2,4,2]; Min;1S;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,3,4,1]; Min;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,1,4,3]; Min;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,0,4,4]; Min;1S;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,1,4,2]; Min;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,2,4,1]; Min;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,3,4,0]; Min;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,0,4,3]; Min;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,2,5,1]; Min;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,3,5,0]; Min;1S;5-5-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT""";[5,1,5,2]; Min;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[5,3,2,3]; Min;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[5,0,5,3]; Min;1S;5-5-3-0;N.v.t.;4H;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,4,3,1]; Min;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,4,4,0]; Min;1S;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,4,1,3]; Min;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,4,2,2]; Min;1S;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,4,0,4]; Min;1S;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,4,1,2]; Min;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,4,2,1]; Min;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,4,3,0]; Min;1S;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,4,0,3]; Min;1S;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,5,2,1]; Min;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,5,0,3]; Min;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3NT""";[5,5,1,2]; Min;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[5,2,3,3]; Min;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 4{SUITS[3]}""";[5,5,3,0]; Min;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[5,2,1,5]; Max;1S;5-5-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} (can't ask further)""";[5,3,1,4]; Max;1S;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[5,1,3,4]; Max;1S;5-4-3-1;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[6,2,1,4]; Max;1S;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[6,1,2,4]; Max;1S;6-4-2-1;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[6,3,0,4]; Max;1S;6-4-3-0;5D;N.v.t.;N.v.t.;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[1]}""";[6,0,3,4]; Max;1S;6-4-3-0;5H;N.v.t.;N.v.t.;4NT;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[5,3,3,2]; Max;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[5,2,2,4]; Max;1S;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[5,3,0,5]; Max;1S;5-5-3-0;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[5,1,2,5]; Max;1S;5-5-2-1;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[5,0,3,5]; Max;1S;5-5-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,3,1,4]; Min;1S;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,1,3,4]; Min;1S;5-4-3-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,2,2,4]; Min;1S;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,1,2,4]; Min;1S;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,2,1,4]; Min;1S;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,3,0,4]; Min;1S;6-4-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,0,3,4]; Min;1S;6-4-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,2,1,5]; Min;1S;5-5-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,3,0,5]; Min;1S;5-5-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3NT""";[5,1,2,5]; Min;1S;5-5-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]}""";[5,3,3,2]; Min;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,0,3,5]; Min;1S;5-5-3-0;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,3,3,1]; Max;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[7,2,2,2]; Max;1S;7-2-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,2,3,1]; Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,3,2,1]; Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[7,3,3,0]; Max;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[6,3,1,3]; Max;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,2,1,3]; Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,3,1,2]; Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[7,3,0,3]; Max;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[6,1,3,3]; Max;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,2,3]; Max;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,3,2]; Max;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,3,2,2]; Max;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,2,3]; Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,3,2]; Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[7,0,3,3]; Max;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,3,4,1]; Max;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,1,4,3]; Max;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,2,4,2]; Max;1S;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,0,4,4]; Max;1S;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,1,4,2]; Max;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,2,4,1]; Max;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,3,4,0]; Max;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,0,4,3]; Max;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,2,5,1]; Max;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,3,5,0]; Max;1S;5-5-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT """;[5,1,5,2]; Max;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[5,3,2,3]; Max;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[5,0,5,3]; Max;1S;5-5-3-0;N.v.t.;4H;N.v.t.;4D;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,4,3,1]; Max;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,4,4,0]; Max;1S;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,4,1,3]; Max;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,4,2,2]; Max;1S;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,4,0,4]; Max;1S;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,4,1,2]; Max;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,4,2,1]; Max;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,4,3,0]; Max;1S;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,4,0,3]; Max;1S;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,5,2,1]; Max;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,5,0,3]; Max;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3NT""";[5,5,1,2]; Max;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[0]}""";[5,2,3,3]; Max;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
-"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 4{SUITS[3]}""";[5,5,3,0]; Max;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}""";[4,4,1,4];Min;1C;4-4-4-1;4C;N.v.t.;3H;3S;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]}""";[4,1,4,4];Min;1C;4-4-4-1;4C;4D;N.v.t.;3S;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,3,4,6];Min;1C;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,1,6];Min;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,2,7];Min;1C;7-2-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,1,7];Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,1,7];Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,0,7];Min;1C;7-3-3-0;4NT;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,3,6];Min;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,3,7];Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,2,7];Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,3,7];Min;1C;7-3-3-0;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,3,6];Min;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,3,6];Min;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,2,6];Min;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,2,6];Min;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,3,7];Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,2,7];Min;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,3,7];Min;1C;7-3-3-0;4S;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,2,5];Min;1C;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,1,5];Min;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,3,5];Min;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,4,5];Min;1C;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,2,6];Min;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,1,6];Min;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,0,6];Min;1C;6-4-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,3,6];Min;1C;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,2,3,5];Min;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,4,5];Min;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,1,5];Min;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,0,5];Min;1C;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,3,4,5];Min;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,3,5];Min;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,2,4,5];Min;1C;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,2,5];Min;1C;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,4,5];Min;1C;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,2,4,6];Min;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,2,6];Min;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,1,4,6];Min;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,1,6];Min;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,0,4,6];Min;1C;6-4-3-0;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,0,6];Min;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,3,6];Min;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,3,3,5];Min;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[3]} - 2{SUITS[2]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]} """;[3,3,2,5];Min;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}""";[3,4,3,3];Min;1C;4-3-3-3;4C;4D;3H;3S;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3NT // \n\n 4{SUITS[3]}""";[3,4,3,3];Max;1C;4-3-3-3;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]}""";[4,3,3,3];Min;1C;4-3-3-3;4D;4NT;4C;3S;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[4,3,3,3];Max;1C;4-3-3-3;N.v.t.;N.v.t.;4NT;4D;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[3,3,4,3];Min;1C;4-3-3-3;N.v.t.;4C;4D;4NT;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,3,3,4];Min;1C;4-3-3-3;4C;N.v.t.;4D;4NT;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[3,3,3,4];Max;1C;4-3-3-3;4D;N.v.t.;4NT;5H;4H;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[3,3,5,2];Max;1C;5-3-3-2;N.v.t.;4D;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[3,2,5,3];Max;1C;5-3-3-2;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[1]}""";[2,3,5,3];Max;1C;5-3-3-2;N.v.t.;4S;N.v.t.;N.v.t.;Pass;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4NT""";[3,3,4,3];Max;1C;4-3-3-3;N.v.t.;5H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]}""";[3,4,2,4];Min;1C;4-4-3-2;4C;N.v.t.;3S;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[3,4,2,4];Max;1C;4-4-3-2;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,3,4];Min;1C;4-4-3-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[2,4,3,4];Max;1C;4-4-3-2;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[2,4,4,3];Min;1C;4-4-3-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,4,4,3];Max;1C;4-4-3-2;N.v.t.;4S;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[3,4,4,2];Min;1C;4-4-3-2;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[3,4,4,2];Max;1C;4-4-3-2;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]}""";[3,2,4,4];Min;1C;4-4-3-2;3S;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[3,2,4,4];Max;1C;4-4-3-2;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[2,3,4,4];Min;1C;4-4-3-2;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[2,3,4,4];Max;1C;4-4-3-2;4D;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]}""";[4,3,2,4];Min;1C;4-4-3-2;4C;N.v.t.;N.v.t.;3S;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[4,3,2,4];Max;1C;4-4-3-2;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,3,4];Min;1C;4-4-3-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[4,2,3,4];Max;1C;4-4-3-2;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,2,4,3];Min;1C;4-4-3-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,2,4,3];Max;1C;4-4-3-2;N.v.t.;4H;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,3,4,2];Min;1C;4-4-3-2;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[4,3,4,2];Max;1C;4-4-3-2;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]}""";[4,4,3,2];Min;1C;4-4-3-2;N.v.t.;N.v.t.;3S;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]} - 3NT // \n\n 4{SUITS[3]}""";[4,4,3,2];Max;1C;4-4-3-2;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,4,2,3];Min;1C;4-4-3-2;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]} - 3NT // \n\n 4{SUITS[3]}""";[4,4,2,3];Max;1C;4-4-3-2;N.v.t.;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]}""";[4,4,1,4];Max;1C;4-4-4-1;4C;N.v.t.;3H;3S;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,4,5];Max;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,3,4,5];Max;1C;5-4-3-1;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]}""";[4,1,4,4];Max;1C;4-4-4-1;4C;4D;N.v.t.;3S;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,1,4,6];Max;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,2,4,6];Max;1C;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,0,4,6];Max;1C;6-4-3-0;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[3,3,2,5];Max;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]}- 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,2,4,5];Max;1C;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[1,4,4,4];Max;1C;4-4-4-1;4D;4S;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,3,4,6];Max;1C;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,1,6];Max;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,2,7];Max;1C;7-2-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,1,7];Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,1,7];Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,0,7];Max;1C;7-3-3-0;4NT;N.v.t.;N.v.t.;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,3,6];Max;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,3,7];Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,2,7];Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,3,7];Max;1C;7-3-3-0;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,3,6];Max;1C;6-3-3-1;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,3,6];Max;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,2,6];Max;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,2,6];Max;1C;6-3-2-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,3,7];Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,2,7];Max;1C;7-3-2-1;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,3,7];Max;1C;7-3-3-0;4S;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,1,5];Max;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,3,5];Max;1C;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,2,5];Max;1C;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,4,5];Max;1C;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,2,6];Max;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,1,6];Max;1C;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,0,6];Max;1C;6-4-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,3,6];Max;1C;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,2,3,5];Max;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,1,5];Max;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,0,5];Max;1C;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,3,5];Max;1C;5-4-3-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,2,5];Max;1C;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,4,5];Max;1C;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,2,6];Max;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,1,6];Max;1C;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,0,6];Max;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,3,6];Max;1C;6-4-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[3]} - 1NT // \n\n 3{SUITS[0]}""";[2,3,3,5];Max;1C;5-3-3-2;4C;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,6,1];Min;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,7,2];Min;1D;7-2-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,7,1];Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,7,1];Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,7,0];Min;1D;7-3-3-0;N.v.t.;4NT;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,6,3];Min;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,7,3];Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,7,2];Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,7,3];Min;1D;7-3-3-0;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,6,3];Min;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,6,3];Min;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,6,2];Min;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,6,2];Min;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,7,3];Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,7,2];Min;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,7,3];Min;1D;7-3-3-0;N.v.t.;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,5,2];Min;1D;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,5,1];Min;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,5,3];Min;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,5,4];Min;1D;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,6,2];Min;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,6,1];Min;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,6,0];Min;1D;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,6,3];Min;1D;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,2,5,3];Min;1D;5-3-3-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,5,1];Min;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,5,0];Min;1D;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,5,3];Min;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,5,2];Min;1D;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,5,4];Min;1D;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,6,2];Min;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,6,1];Min;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,6,0];Min;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,6,3];Min;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,3,5,3];Min;1D;5-3-3-2;N.v.t.;4C;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,1,5,4];Max;1D;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[1,3,5,4];Max;1D;5-4-3-1;4D;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,1,6,4];Max;1D;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[1,2,6,4];Max;1D;6-4-2-1;4D;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,6,4];Max;1D;6-4-3-0;4H;4NT;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[1]}""";[0,3,6,4];Max;1D;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;Pass;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[4,4,4,1];Min;1D;4-4-4-1;N.v.t.;4NT;4C;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[2,2,5,4];Max;1D;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[2,1,5,5];Max;1D;5-5-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,0,5,5];Max;1D;5-5-3-0;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,5,5];Max;1D;5-5-2-1;4D;4H;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,5,5];Max;1D;5-5-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,3,5,4];Min;1D;5-4-3-1;4C;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,2,6,4];Min;1D;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,3,6,4];Min;1D;6-4-3-0;4S;4NT;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} / 4{SUITS[3]}""";[3,0,5,5];Min;1D;5-5-3-0;4H;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,1,5,5];Min;1D;5-5-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3NT""";[1,2,5,5];Min;1D;5-5-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]}""";[3,3,5,2];Min;1D;5-3-3-2;N.v.t.;4C;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 4{SUITS[3]}""";[0,3,5,5];Min;1D;5-5-3-0;4S;4D;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,5,4];Min;1D;5-4-3-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,2,5,4];Min;1D;5-4-2-2;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,1,6,4];Min;1D;6-4-2-1;4C;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n / 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,0,6,4];Min;1D;6-4-3-0;4D;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,3,6,1];Max;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,2,7,2];Max;1D;7-2-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,3,7,1];Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,2,7,1];Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,3,7,0];Max;1D;7-3-3-0;N.v.t.;4NT;N.v.t.;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,1,6,3];Max;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,1,7,3];Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,1,7,2];Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,0,7,3];Max;1D;7-3-3-0;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,3,6,3];Max;1D;6-3-3-1;N.v.t.;4C;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,2,6,3];Max;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,3,6,2];Max;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,2,6,2];Max;1D;6-3-2-2;N.v.t.;4C;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,2,7,3];Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,3,7,2];Max;1D;7-3-2-1;N.v.t.;4D;N.v.t.;N.v.t.;N.v.t.;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,3,7,3];Max;1D;7-3-3-0;N.v.t.;4S;N.v.t.;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,4,5,1];Max;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,4,5,3];Max;1D;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,4,5,2];Max;1D;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,4,5,4];Max;1D;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,4,6,2];Max;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,4,6,1];Max;1D;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,4,6,0];Max;1D;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,4,6,3];Max;1D;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[4,4,4,1];Max;1D;4-4-4-1;N.v.t.;4NT;4C;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,3,5,1];Max;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,4,5,0];Max;1D;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,1,5,3];Max;1D;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,2,5,2];Max;1D;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,0,5,4];Max;1D;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,1,6,2];Max;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,2,6,1];Max;1D;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,3,6,0];Max;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,0,6,3];Max;1D;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[2]} - 2{SUITS[3]} // \n\n 3{SUITS[0]}""";[1,4,4,4];Min;1D;4-4-4-1;4D;4S;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,6,3,1];Min;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,7,2,2];Min;1H;7-2-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,7,3,1];Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,7,2,1];Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,7,3,0];Min;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,6,1,3];Min;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,7,1,3];Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,7,1,2];Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,7,0,3];Min;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,6,3,3];Min;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,2,3];Min;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,3,2];Min;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,6,2,2];Min;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,2,3];Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,3,2];Min;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,7,3,3];Min;1H;7-3-3-0;N.v.t.;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,5,4,2];Min;1H;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,5,4,1];Min;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,5,4,3];Min;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,5,4,4];Min;1H;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,6,4,2];Min;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,6,4,1];Min;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,6,4,0];Min;1H;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,6,4,3];Min;1H;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,5,5,1];Min;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,5,5,0];Min;1H;5-5-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT""";[1,5,5,2];Min;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,5,2,3];Min;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[0,5,5,3];Min;1H;5-5-3-0;N.v.t.;4S;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,5,3,1];Min;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,5,4,0];Min;1H;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,5,1,3];Min;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,5,2,2];Min;1H;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,5,0,4];Min;1H;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,6,1,2];Min;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,6,2,1];Min;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,6,3,0];Min;1H;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,6,0,3];Min;1H;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,5,3,3];Min;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]}""";[3,5,3,2];Min;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,5,1,4];Max;1H;5-4-3-1;4C;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[1,5,3,4];Max;1H;5-4-3-1;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,6,1,4];Max;1H;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[1,6,2,4];Max;1H;6-4-2-1;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,6,0,4];Max;1H;6-4-3-0;5D;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[1]}""";[0,6,3,4];Max;1H;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;Pass;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[3,5,3,2];Max;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[2,5,2,4];Max;1H;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[2,5,1,5];Max;1H;5-5-2-1;4C;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[3,5,0,5];Max;1H;5-5-3-0;4C;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,5,2,5];Max;1H;5-5-2-1;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,5,3,5];Max;1H;5-5-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,5,1,4];Min;1H;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,5,3,4];Min;1H;5-4-3-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,5,2,4];Min;1H;5-4-2-2;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,6,2,4];Min;1H;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,6,1,4];Min;1H;6-4-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,6,0,4];Min;1H;6-4-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,6,3,4];Min;1H;6-4-3-0;4NT;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,5,1,5];Min;1H;5-5-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,5,0,5];Min;1H;5-5-3-0;4NT;N.v.t.;4D;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3NT""";[1,5,2,5];Min;1H;5-5-2-1;4D;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 4{SUITS[3]}""";[0,5,3,5];Min;1H;5-5-3-0;4S;N.v.t.;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[3,6,3,1];Max;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,7,2,2];Max;1H;7-2-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[2,7,3,1];Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,7,2,1];Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[3,7,3,0];Max;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,6,1,3];Max;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[2,7,1,3];Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,7,1,2];Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[3,7,0,3];Max;1H;7-3-3-0;N.v.t.;N.v.t.;4NT;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[1,6,3,3];Max;1H;6-3-3-1;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,2,3];Max;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,6,3,2];Max;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[3,6,2,2];Max;1H;6-3-2-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,2,3];Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[1,7,3,2];Max;1H;7-3-2-1;N.v.t.;N.v.t.;4D;N.v.t.;4H;N.v.t.;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[0,7,3,3];Max;1H;7-3-3-0;N.v.t.;N.v.t.;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[3,5,4,1];Max;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[1,5,4,3];Max;1H;5-4-3-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[2,5,4,2];Max;1H;5-4-2-2;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[0,5,4,4];Max;1H;5-4-4-0;4S;4NT;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[1,6,4,2];Max;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[2,6,4,1];Max;1H;6-4-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[3,6,4,0];Max;1H;6-4-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[0,6,4,3];Max;1H;6-4-3-0;N.v.t.;4NT;4S;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[2,5,5,1];Max;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[3,5,5,0];Max;1H;5-5-3-0;N.v.t.;4NT;4D;N.v.t.;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT""";[1,5,5,2];Max;1H;5-5-2-1;N.v.t.;4D;4C;N.v.t.;4H;N.v.t.;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[3,5,2,3];Max;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[0,5,5,3];Max;1H;5-5-3-0;N.v.t.;4S;4D;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[4,5,3,1];Max;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[4,5,4,0];Max;1H;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[4,5,1,3];Max;1H;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[4,5,2,2];Max;1H;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[4,5,0,4];Max;1H;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[4,6,1,2];Max;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[4,6,2,1];Max;1H;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[4,6,3,0];Max;1H;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[4,6,0,3];Max;1H;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
+"f""1{SUITS[1]} - 2{SUITS[3]} // \n\n 3{SUITS[0]}""";[2,5,3,3];Max;1H;5-3-3-2;N.v.t.;N.v.t.;4C;N.v.t.;4H;N.v.t.;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,3,3,1];Min;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[7,2,2,2];Min;1S;7-2-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,2,3,1];Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,3,2,1];Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[7,3,3,0];Min;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[6,3,1,3];Min;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,2,1,3];Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,3,1,2];Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[7,3,0,3];Min;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[6,1,3,3];Min;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,2,3];Min;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,3,2];Min;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,3,2,2];Min;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,2,3];Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,3,2];Min;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[7,0,3,3];Min;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,2,4,2];Min;1S;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,3,4,1];Min;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,1,4,3];Min;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,0,4,4];Min;1S;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,1,4,2];Min;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,2,4,1];Min;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,3,4,0];Min;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,0,4,3];Min;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,2,5,1];Min;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,3,5,0];Min;1S;5-5-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT""";[5,1,5,2];Min;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[5,3,2,3];Min;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[5,0,5,3];Min;1S;5-5-3-0;N.v.t.;4H;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,4,3,1];Min;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,4,4,0];Min;1S;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,4,1,3];Min;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,4,2,2];Min;1S;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,4,0,4];Min;1S;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,4,1,2];Min;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,4,2,1];Min;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,4,3,0];Min;1S;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,4,0,3];Min;1S;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,5,2,1];Min;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,5,0,3];Min;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3NT""";[5,5,1,2];Min;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 3{SUITS[0]}""";[5,2,3,3];Min;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[2]} - 2{SUITS[1]} // \n\n 4{SUITS[3]}""";[5,5,3,0];Min;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[5,2,1,5];Max;1S;5-5-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]} (can't ask further)""";[5,3,1,4];Max;1S;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[5,1,3,4];Max;1S;5-4-3-1;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[6,2,1,4];Max;1S;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[6,1,2,4];Max;1S;6-4-2-1;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[6,3,0,4];Max;1S;6-4-3-0;5D;N.v.t.;N.v.t.;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[1]}""";[6,0,3,4];Max;1S;6-4-3-0;5H;N.v.t.;N.v.t.;4NT;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[5,3,3,2];Max;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[5,2,2,4];Max;1S;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]} (can't ask further)""";[5,3,0,5];Max;1S;5-5-3-0;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[5,1,2,5];Max;1S;5-5-2-1;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[5,0,3,5];Max;1S;5-5-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,3,1,4];Min;1S;5-4-3-1;4D;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,1,3,4];Min;1S;5-4-3-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,2,2,4];Min;1S;5-4-2-2;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,1,2,4];Min;1S;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,2,1,4];Min;1S;6-4-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,3,0,4];Min;1S;6-4-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,0,3,4];Min;1S;6-4-3-0;4NT;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,2,1,5];Min;1S;5-5-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,3,0,5];Min;1S;5-5-3-0;4NT;N.v.t.;N.v.t.;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3NT""";[5,1,2,5];Min;1S;5-5-2-1;4D;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 3{SUITS[0]}""";[5,3,3,2];Min;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[1]} - 2{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,0,3,5];Min;1S;5-5-3-0;4H;N.v.t.;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,3,3,1];Max;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[7,2,2,2];Max;1S;7-2-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,2,3,1];Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[7,3,2,1];Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[7,3,3,0];Max;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[6,3,1,3];Max;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,2,1,3];Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[7,3,1,2];Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[2]}""";[7,3,0,3];Max;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3NT""";[6,1,3,3];Max;1S;6-3-3-1;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,2,3];Max;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,2,3,2];Max;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 3{SUITS[0]}""";[6,3,2,2];Max;1S;6-3-2-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,2,3];Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[3]}""";[7,1,3,2];Max;1S;7-3-2-1;N.v.t.;N.v.t.;N.v.t.;4D;N.v.t.;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2NT - 3{SUITS[3]} // \n\n 4{SUITS[2]}""";[7,0,3,3];Max;1S;7-3-3-0;N.v.t.;N.v.t.;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,3,4,1];Max;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,1,4,3];Max;1S;5-4-3-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,2,4,2];Max;1S;5-4-2-2;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,0,4,4];Max;1S;5-4-4-0;4H;4NT;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,1,4,2];Max;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,2,4,1];Max;1S;6-4-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,3,4,0];Max;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,0,4,3];Max;1S;6-4-3-0;N.v.t.;4NT;N.v.t.;4H;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,2,5,1];Max;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,3,5,0];Max;1S;5-5-3-0;N.v.t.;4NT;N.v.t.;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3NT """;[5,1,5,2];Max;1S;5-5-2-1;N.v.t.;4D;N.v.t.;4C;N.v.t.;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 3{SUITS[0]}""";[5,3,2,3];Max;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 2{SUITS[0]} - 2NT // \n\n 4{SUITS[3]}""";[5,0,5,3];Max;1S;5-5-3-0;N.v.t.;4H;N.v.t.;4D;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,4,3,1];Max;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,4,4,0];Max;1S;5-4-4-0;N.v.t.;5C;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3NT""";[5,4,1,3];Max;1S;5-4-3-1;N.v.t.;N.v.t.;4C;4D;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 3{SUITS[0]}""";[5,4,2,2];Max;1S;5-4-2-2;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[3]} - 3{SUITS[2]} // \n\n 4{SUITS[3]}""";[5,4,0,4];Max;1S;5-4-4-0;5D;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3NT""";[6,4,1,2];Max;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 3{SUITS[0]}""";[6,4,2,1];Max;1S;6-4-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[3]}""";[6,4,3,0];Max;1S;6-4-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[2]} - 3{SUITS[1]} // \n\n 4{SUITS[2]}""";[6,4,0,3];Max;1S;6-4-3-0;N.v.t.;N.v.t.;4NT;5D;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 3NT""";[5,5,2,1];Max;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[1]} - 3{SUITS[0]} // \n\n 4{SUITS[3]}""";[5,5,0,3];Max;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;5C;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3NT""";[5,5,1,2];Max;1S;5-5-2-1;N.v.t.;N.v.t.;4C;4D;4H;4S;N.v.t.;N.v.t.
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 3{SUITS[0]}""";[5,2,3,3];Max;1S;5-3-3-2;N.v.t.;N.v.t.;N.v.t.;4C;N.v.t.;4S;5C;5D
+"f""1{SUITS[0]} - 2{SUITS[3]} // \n\n 4{SUITS[3]}""";[5,5,3,0];Max;1S;5-5-3-0;N.v.t.;N.v.t.;4D;4NT;4H;4S;N.v.t.;5D
