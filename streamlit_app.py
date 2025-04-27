@@ -18,7 +18,7 @@ OPENING_LABELS = {
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
 # Load database safely
-df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig", sep=";"))
+df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig", sep=";")
 
 # Clean header names
 df.columns = df.columns.str.strip()
