@@ -31,7 +31,7 @@ for idx, suit in enumerate(SUITS):
 # Clean up formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("// \\n\\n", "\n")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("\\n\\n", "\n")
 
 # Parse Shape column
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
