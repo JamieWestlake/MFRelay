@@ -29,7 +29,7 @@ for idx, suit in enumerate(SUITS):
 # Clean up bidding sequence formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("\\n\\n", "\n")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("// \\n\\n", "\n")
 
 # Parse Shape and Family properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
@@ -160,13 +160,12 @@ with main_col:
 
             distribution_ok = slam_ok = game_ok = True
 
-            # ✅ Improved distribution checking
             if "Bidding Info" in selected_sections:
                 distribution_ok = False
                 if user_input and len(user_input) == 4 and user_input.isdigit():
                     user_dist = [int(d) for d in user_input]
                     possible_indices = [i for i, seq in enumerate(bidding_sequences) if seq == sequence]
-                    possible_answers = [(answers[i][0], answers[i][1].lower()) for i in possible_indices]  # Normalize to lower-case
+                    possible_answers = [(answers[i][0], answers[i][1].lower()) for i in possible_indices]
                     distribution_ok = any(
                         user_dist == dist and user_type.lower() == typ
                         for dist, typ in possible_answers
@@ -178,7 +177,6 @@ with main_col:
                     st.session_state.submitted = True
                     st.stop()
 
-            # ✅ Improved Slam Bidding matching
             if "Slam Bidding" in selected_sections:
                 def slam_match(user_val, correct_val):
                     if correct_val in ['N.v.t.', 'Pass']:
@@ -192,7 +190,6 @@ with main_col:
                     slam_match(user_spade_slam, SpadeSlam[index])
                 )
 
-            # ✅ Improved Game Bidding matching
             if "Game Bidding" in selected_sections:
                 def yn_to_val(val, expected):
                     if expected in ['N.v.t.', 'Pass']:
@@ -207,11 +204,39 @@ with main_col:
                     yn_to_val(user_diamond_game, DiamondGame[index])
                 )
 
-            if distribution_ok and slam_ok and game_ok:
-                st.success("\u2705 Correct!")
+            st.session_state.submitted = True
+
+            correct_sections = []
+            incorrect_sections = []
+
+            if "Bidding Info" in selected_sections:
+                if distribution_ok:
+                    correct_sections.append("Bidding Info")
+                else:
+                    incorrect_sections.append("Bidding Info")
+
+            if "Slam Bidding" in selected_sections:
+                if slam_ok:
+                    correct_sections.append("Slam Bidding")
+                else:
+                    incorrect_sections.append("Slam Bidding")
+
+            if "Game Bidding" in selected_sections:
+                if game_ok:
+                    correct_sections.append("Game Bidding")
+                else:
+                    incorrect_sections.append("Game Bidding")
+
+            if correct_sections and not incorrect_sections:
+                st.success("\u2705 All sections correct!")
                 st.session_state.correct_count += 1
             else:
                 st.error("\u274C Incorrect.")
+                if correct_sections:
+                    st.info(f"✅ Correct sections: {', '.join(correct_sections)}")
+                if incorrect_sections:
+                    st.warning(f"❌ Incorrect sections: {', '.join(incorrect_sections)}")
+
                 st.markdown("**Correct Answers:**")
                 st.write(f"Distribution: {correct_distribution} ({correct_type})")
                 st.write(f"Club Slam: {ClubSlam[index]}")
@@ -222,8 +247,6 @@ with main_col:
                 st.write(f"Spade Game: {'Yes' if SpadeGame[index] != 'N.v.t.' else 'No'}")
                 st.write(f"Club Game: {'Yes' if ClubGame[index] != 'N.v.t.' else 'No'}")
                 st.write(f"Diamond Game: {'Yes' if DiamondGame[index] != 'N.v.t.' else 'No'}")
-
-            st.session_state.submitted = True
 
     if st.session_state.submitted:
         col1, _, _ = st.columns([2, 1, 1])
