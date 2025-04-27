@@ -10,39 +10,34 @@ SUITS = ['♠️', '❤️', '♦️', '♣️']
 
 # Opening label mapping
 OPENING_LABELS = {
-    "1C": f"1{SUITS[3]}",  # ♣️
-    "1D": f"1{SUITS[2]}",  # ♦️
-    "1H": f"1{SUITS[1]}",  # ♥️
-    "1S": f"1{SUITS[0]}",  # ♠️
+    "1C": f"1{SUITS[3]}",
+    "1D": f"1{SUITS[2]}",
+    "1H": f"1{SUITS[1]}",
+    "1S": f"1{SUITS[0]}",
 }
-
-# ⚡ DEFINE THIS
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
-# Load CSV properly
+# Load database
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig", sep=";")
 df.columns = df.columns.str.strip()
 df = df.rename(columns={df.columns[0]: "Bidding Sequences"})
 
-# Replace placeholders in bidding sequences
+# Replace placeholders like {SUITS[0]}
 for idx, suit in enumerate(SUITS):
     df['Bidding Sequences'] = df['Bidding Sequences'].str.replace(f"{{SUITS[{idx}]}}", suit)
 
-# Clean up formatting
+# Clean up bidding sequence formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("\\n\\n", "\n")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("// \\n\\n", "\n")
 
-# Parse Shape column
+# Parse Shape and Family properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
-
-# Parse Family column correctly (dash-separated)
 def parse_family(x):
     return list(map(int, x.strip().split('-')))
-
 families = df['Family'].apply(parse_family).tolist()
 
-# Extract rest of the columns
+# Extract columns
 bidding_sequences = df['Bidding Sequences'].tolist()
 openings = df['Opening'].tolist()
 answers = list(zip(df['Shape'], df['Strength']))
@@ -68,7 +63,7 @@ with main_col:
         default=["Bidding Info", "Slam Bidding", "Game Bidding"]
     )
 
-    unique_families = list({tuple(fam) for fam in families})
+    unique_families = sorted(list({tuple(fam) for fam in families}))
     selected_families = st.sidebar.multiselect("Family:", unique_families, default=unique_families)
 
     available_codes = [code for code in ORDERED_CODES if code in openings]
@@ -165,6 +160,7 @@ with main_col:
 
             distribution_ok = slam_ok = game_ok = True
 
+            # ✅ Improved distribution checking
             if "Bidding Info" in selected_sections:
                 distribution_ok = False
                 if user_input and len(user_input) == 4 and user_input.isdigit():
@@ -178,11 +174,13 @@ with main_col:
                     st.session_state.submitted = True
                     st.stop()
 
+            # ✅ Improved Slam Bidding matching
             if "Slam Bidding" in selected_sections:
                 def slam_match(user_val, correct_val):
                     if correct_val in ['N.v.t.', 'Pass']:
                         return not user_val or user_val.strip().lower() in ["no", "pass", "n.v.t."]
                     return user_val.strip() == correct_val
+
                 slam_ok = (
                     slam_match(user_club_slam, ClubSlam[index]) and
                     slam_match(user_diamond_slam, DiamondSlam[index]) and
@@ -190,12 +188,14 @@ with main_col:
                     slam_match(user_spade_slam, SpadeSlam[index])
                 )
 
+            # ✅ Improved Game Bidding matching
             if "Game Bidding" in selected_sections:
                 def yn_to_val(val, expected):
                     if expected in ['N.v.t.', 'Pass']:
                         return val == "No"
                     else:
                         return val == "Yes"
+
                 game_ok = (
                     yn_to_val(user_heart_game, HeartGame[index]) and
                     yn_to_val(user_spade_game, SpadeGame[index]) and
