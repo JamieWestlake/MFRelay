@@ -164,10 +164,13 @@ with main_col:
                 distribution_ok = False
                 if user_input and len(user_input) == 4 and user_input.isdigit():
                     user_dist = [int(d) for d in user_input]
+                    # ✅ Fix order: user inputs [♠️, ♥️, ♦️, ♣️], DB is [♣️, ♦️, ♥️, ♠️]
+                    user_dist_reordered = [user_dist[3], user_dist[2], user_dist[1], user_dist[0]]
+
                     possible_indices = [i for i, seq in enumerate(bidding_sequences) if seq == sequence]
                     possible_answers = [(answers[i][0], answers[i][1].lower()) for i in possible_indices]
                     distribution_ok = any(
-                        user_dist == dist and user_type.lower() == typ
+                        user_dist_reordered == dist and user_type.lower() == typ
                         for dist, typ in possible_answers
                     )
                 else:
