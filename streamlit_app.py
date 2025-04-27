@@ -17,9 +17,14 @@ OPENING_LABELS = {
 }
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
-# Load the database safely
+# Load database safely
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig")
-df.columns = df.columns.str.strip()  # Clean header spaces
+
+# Clean header names
+df.columns = df.columns.str.strip()
+
+# Rename first column properly
+df = df.rename(columns={df.columns[0]: "Bidding Sequences"})
 
 # Replace placeholders like {SUITS[3]} with actual suit symbols
 df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[0]}", "♠️")
