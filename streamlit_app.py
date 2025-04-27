@@ -180,10 +180,9 @@ with main_col:
 
             if "Slam Bidding" in selected_sections:
                 def slam_match(user_val, correct_val):
-                    return (
-                        (correct_val == 'N.v.t.' and (not user_val or user_val.strip().lower() == "no"))
-                        or (user_val.strip() == correct_val)
-                    )
+                    if correct_val in ['N.v.t.', 'Pass']:
+                        return not user_val or user_val.strip().lower() in ["no", "pass", "n.v.t."]
+                    return user_val.strip() == correct_val
                 slam_ok = (
                     slam_match(user_club_slam, ClubSlam[index]) and
                     slam_match(user_diamond_slam, DiamondSlam[index]) and
@@ -193,7 +192,10 @@ with main_col:
 
             if "Game Bidding" in selected_sections:
                 def yn_to_val(val, expected):
-                    return (val == "Yes" and expected != 'N.v.t.') or (val == "No" and expected == 'N.v.t.')
+                    if expected in ['N.v.t.', 'Pass']:
+                        return val == "No"
+                    else:
+                        return val == "Yes"
                 game_ok = (
                     yn_to_val(user_heart_game, HeartGame[index]) and
                     yn_to_val(user_spade_game, SpadeGame[index]) and
