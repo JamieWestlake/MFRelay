@@ -17,14 +17,17 @@ OPENING_LABELS = {
 }
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
-# Load database safely
+# Load the database safely
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig")
-df.columns = df.columns.str.strip()  # Clean up weird spaces
+df.columns = df.columns.str.strip()  # Clean header spaces
 
-# Uncomment this if you want to debug the columns
-st.write(df.columns.tolist())
+# Replace placeholders like {SUITS[3]} with actual suit symbols
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[0]}", "♠️")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[1]}", "❤️")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[2]}", "♦️")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("{SUITS[3]}", "♣️")
 
-# Preprocess shape into list of ints
+# Now parse the 'Shape' column properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
 
 # Extract columns
