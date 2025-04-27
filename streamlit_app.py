@@ -29,7 +29,7 @@ for idx, suit in enumerate(SUITS):
 # Clean up bidding sequence formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("\\n\\n", "\n")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("//", "//\n", regex=False)
 
 # Parse Shape and Family properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
@@ -40,7 +40,7 @@ families = df['Family'].apply(parse_family).tolist()
 # Extract columns
 bidding_sequences = df['Bidding Sequences'].tolist()
 openings = df['Opening'].tolist()
-answers = list(zip(df['Shape'], df['Strength']))
+answers = list(zip(df['Shape'], df['Strength'].str.strip()))
 ClubSlam = df['ClubSlam'].tolist()
 DiamondSlam = df['DiamondSlam'].tolist()
 HeartSlam = df['HeartSlam'].tolist()
@@ -111,7 +111,7 @@ with main_col:
     correct_distribution, correct_type = answers[index]
 
     st.markdown("### Bidding Sequence:")
-    st.write(sequence)
+    st.markdown(f"```text\n{sequence}\n```")
 
     if "Bidding Info" not in selected_sections:
         st.markdown("**Bidding Info (for reference):**")
