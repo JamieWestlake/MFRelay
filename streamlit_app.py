@@ -29,7 +29,7 @@ for idx, suit in enumerate(SUITS):
 # Clean up bidding sequence formatting
 df['Bidding Sequences'] = df['Bidding Sequences'].str.strip()
 df['Bidding Sequences'] = df['Bidding Sequences'].str.removeprefix('f"').str.removesuffix('"')
-df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("\\n\\n", "\n")
+df['Bidding Sequences'] = df['Bidding Sequences'].str.replace("// \\n\\n", "\n")
 
 # Parse Shape and Family properly
 df['Shape'] = df['Shape'].apply(lambda x: list(map(int, x.strip('[]').split(','))))
@@ -164,26 +164,10 @@ with main_col:
                 distribution_ok = False
                 if user_input and len(user_input) == 4 and user_input.isdigit():
                     user_dist = [int(d) for d in user_input]
-                    # ✅ Fix order: user inputs [♠️, ♥️, ♦️, ♣️], DB is [♣️, ♦️, ♥️, ♠️]
-                    user_dist_reordered = [user_dist[3], user_dist[2], user_dist[1], user_dist[0]]
-
-                    possible_indices = [i for i, seq in enumerate(bidding_sequences) if seq == sequence]
-                    possible_answers = [(answers[i][0], answers[i][1].lower()) for i in possible_indices]
-
-                    DEBUG = True  # 👈 set to True if you want debug output
-                    
-                    if DEBUG:
-                        st.markdown("---")
-                        st.subheader("🔍 Debug info")
-                        st.write(f"Your reordered distribution: {user_dist_reordered}")
-                        st.write(f"Your selected type: {user_type}")
-                        st.write(f"Possible correct distributions and types for this sequence:")
-                        st.write(possible_answers)
-                        st.markdown("---")
-                    
+                    possible = [(answers[i][0], answers[i][1].lower()) for i, seq in enumerate(bidding_sequences) if seq == sequence]
                     distribution_ok = any(
-                        user_dist_reordered == dist and user_type.lower() == typ
-                        for dist, typ in possible_answers
+                        user_dist == dist and user_type.lower() == typ
+                        for dist, typ in possible
                     )
                 else:
                     st.warning("Please enter exactly 4 digits.")
