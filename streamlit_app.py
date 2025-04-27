@@ -249,4 +249,6 @@ with main_col:
                 st.write(f"Diamond Game: {'Yes' if DiamondGame[index] != 'N.v.t.' else 'No'}")
 
     if st.session_state.submitted:
-        col1, _,_
+        col1, col2, col3 = st.columns([2, 1, 1])
+        with col1:
+            st.button("Next Hand ▶️", on_click=new_hand)
