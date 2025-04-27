@@ -5,8 +5,19 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-# Suit Symbols
+# Suit symbols
 SUITS = ['♠️', '❤️', '♦️', '♣️']
+
+# Opening label mapping
+OPENING_LABELS = {
+    "1C": f"1{SUITS[3]}",  # ♣️
+    "1D": f"1{SUITS[2]}",  # ♦️
+    "1H": f"1{SUITS[1]}",  # ♥️
+    "1S": f"1{SUITS[0]}",  # ♠️
+}
+
+# ⚡ DEFINE THIS
+ORDERED_CODES = ["1C", "1D", "1H", "1S"]
 
 # Load CSV properly
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig", sep=";")
