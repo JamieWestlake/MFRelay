@@ -5,17 +5,6 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-DEBUG = True  # 👈 set to True if you want debug output
-
-if DEBUG:
-    st.markdown("---")
-    st.subheader("🔍 Debug info")
-    st.write(f"Your reordered distribution: {user_dist_reordered}")
-    st.write(f"Your selected type: {user_type}")
-    st.write(f"Possible correct distributions and types for this sequence:")
-    st.write(possible_answers)
-    st.markdown("---")
-
 # Suit symbols
 SUITS = ['♠️', '❤️', '♦️', '♣️']
 
@@ -180,6 +169,18 @@ with main_col:
 
                     possible_indices = [i for i, seq in enumerate(bidding_sequences) if seq == sequence]
                     possible_answers = [(answers[i][0], answers[i][1].lower()) for i in possible_indices]
+
+                    DEBUG = True  # 👈 set to True if you want debug output
+                    
+                    if DEBUG:
+                        st.markdown("---")
+                        st.subheader("🔍 Debug info")
+                        st.write(f"Your reordered distribution: {user_dist_reordered}")
+                        st.write(f"Your selected type: {user_type}")
+                        st.write(f"Possible correct distributions and types for this sequence:")
+                        st.write(possible_answers)
+                        st.markdown("---")
+                    
                     distribution_ok = any(
                         user_dist_reordered == dist and user_type.lower() == typ
                         for dist, typ in possible_answers
