@@ -13,6 +13,7 @@ if "page" not in st.session_state:
 
 # Top navigation
 page = st.radio(
+        "",
     [
         "MF Relay Trainer",
         "Suit Combination Trainer",
