@@ -3,9 +3,11 @@ import time
 import streamlit as st
 import pandas as pd
 
+# 1.1 Dit hele stuk zorgt er voornamelijk  dat je kan wisselen tussen de verschillende tooltjes
+# Anders is niet alles mooi zichtbaar
 st.set_page_config(layout="wide")
 
-# Persistent page state
+# 1.1 Dit hele stuk zorgt ervoor dat je kan wisselen tussen de verschillende tooltjes
 if "page" not in st.session_state:
     st.session_state.page = "MF Relay Trainer"
 
@@ -38,6 +40,10 @@ OPENING_LABELS = {
     "1S": f"1{SUITS[0]}",
 }
 ORDERED_CODES = ["1C", "1D", "1H", "1S"]
+
+# 2.1 Het inladen van de data, op volgorde van de tooltjes
+
+# 2.1.1 Het inladen van de data voor de MF Relay trainer
 
 # Load database
 df = pd.read_csv("Data/Database MF Relay.csv", encoding="utf-8-sig", sep=";")
@@ -73,6 +79,7 @@ SpadeGame = df['SpadeGame'].tolist()
 ClubGame = df['ClubGame'].tolist()
 DiamondGame = df['DiamondGame'].tolist()
 
+# 3.1 De MF Relay trainer tool
 if st.session_state.page == "MF Relay Trainer":
     # --- Place your entire MF Relay Trainer logic here ---
     # --- Layout ---
@@ -289,6 +296,7 @@ if st.session_state.page == "MF Relay Trainer":
             st.metric("Avg time/hand", f"{avg_time:.2f}s")
             st.progress(st.session_state.correct_count / max(1, st.session_state.attempted_count))
 
+# 3.2 De Suit Combination tool, om suit combinaties te oefenen
 if st.session_state.page == "Suit Combination Trainer":
     st.title("♠️ Suit Combination Trainer")
 
@@ -298,6 +306,7 @@ if st.session_state.page == "Suit Combination Trainer":
     st.markdown("This is the Suit Combination Trainer page.")
     st.info("Trainer functionality is not yet implemented.")
 
+# 3.3 De Gazzili trainer om de nieuwe variant te oefenen
 elif st.session_state.page == "Gazzilli Trainer":
     st.title("♣️ Gazzilli Trainer")
     
@@ -306,7 +315,8 @@ elif st.session_state.page == "Gazzilli Trainer":
     
     st.markdown("This is a placeholder for the Gazzilli Trainer.")
     st.info("Trainer functionality is not yet implemented.")
-    
+
+# 3.4 De tool om te oefenen met bieden in competitie, in zowel de variant met Bart/Wisse/Joris als de variant met Marieke
 elif st.session_state.page == "Bidding in Competition Trainer":
     st.title("♦️ Bidding in Competition Trainer")
     
@@ -315,7 +325,8 @@ elif st.session_state.page == "Bidding in Competition Trainer":
     
     st.markdown("This is a placeholder for the Bidding in Competition Trainer.")
     st.info("Trainer functionality is not yet implemented.")
-    
+
+# 3.5 De tool om te oefenen met de toevoegingen vanuit het systeem van Arwen en Marieke voor Jamie
 elif st.session_state.page == "AM Trainer":
     st.title("❤️ AM Trainer")
     
