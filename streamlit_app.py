@@ -308,7 +308,7 @@ if st.session_state.page == "Suit Combination Trainer":
 
 # 3.3 De Gazzili trainer om de nieuwe variant te oefenen
 elif st.session_state.page == "Gazzilli Trainer":
-    st.title("♣️ Gazzilli Trainer")
+    st.title("🍝 Gazzilli Trainer")
     
     st.sidebar.header("🛠️ Gazzilli Settings")
     st.sidebar.write("Customize suit scenarios here.")
@@ -318,7 +318,7 @@ elif st.session_state.page == "Gazzilli Trainer":
 
 # 3.4 De tool om te oefenen met bieden in competitie, in zowel de variant met Bart/Wisse/Joris als de variant met Marieke
 elif st.session_state.page == "Bidding in Competition Trainer":
-    st.title("♦️ Bidding in Competition Trainer")
+    st.title("⚔️ Bidding in Competition Trainer")
     
     st.sidebar.header("🛠️ Competitive Bidding Settings")
     st.sidebar.write("Customize suit scenarios here.")
@@ -328,7 +328,7 @@ elif st.session_state.page == "Bidding in Competition Trainer":
 
 # 3.5 De tool om te oefenen met de toevoegingen vanuit het systeem van Arwen en Marieke voor Jamie
 elif st.session_state.page == "AM Trainer":
-    st.title("❤️ AM Trainer")
+    st.title("💃 AM Trainer")
     
     st.sidebar.header("🛠️ AM Training Options")
     st.sidebar.write("Customize suit scenarios here.")
