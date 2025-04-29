@@ -5,15 +5,27 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-# Page switching logic
+# Persistent page state
 if "page" not in st.session_state:
     st.session_state.page = "MF Relay Trainer"
 
-page = st.radio("Select Trainer", ["MF Relay Trainer", "Suit Combination Trainer"], horizontal=True)
+# Top navigation
+page = st.radio(
+    "Choose a Trainer:",
+    [
+        "MF Relay Trainer",
+        "Suit Combination Trainer",
+        "Gazzilli Trainer",
+        "Bidding in Competition Trainer",
+        "AM Trainer"
+    ],
+    horizontal=True,
+)
 
+# Change detection and rerun
 if page != st.session_state.page:
     st.session_state.page = page
-    st.rerun()  # Ensures a clean state switch
+    st.rerun()
 
 # Suit symbols
 SUITS = ['♠️', '❤️', '♦️', '♣️']
@@ -277,11 +289,38 @@ if st.session_state.page == "MF Relay Trainer":
             st.metric("Avg time/hand", f"{avg_time:.2f}s")
             st.progress(st.session_state.correct_count / max(1, st.session_state.attempted_count))
 
-elif st.session_state.page == "Suit Combination Trainer":
+if st.session_state.page == "Suit Combination Trainer":
     st.title("♠️ Suit Combination Trainer")
 
     st.sidebar.header("🛠️ Options")
     st.sidebar.write("Customize suit scenarios here.")
 
     st.markdown("This is the Suit Combination Trainer page.")
+    st.info("Trainer functionality is not yet implemented.")
+
+elif st.session_state.page == "Gazzilli Trainer":
+    st.title("♣️ Gazzilli Trainer")
+    
+    st.sidebar.header("🛠️ Gazzilli Settings")
+    st.sidebar.write("Customize suit scenarios here.")
+    
+    st.markdown("This is a placeholder for the Gazzilli Trainer.")
+    st.info("Trainer functionality is not yet implemented.")
+    
+elif st.session_state.page == "Bidding in Competition Trainer":
+    st.title("♦️ Bidding in Competition Trainer")
+    
+    st.sidebar.header("🛠️ Competitive Bidding Settings")
+    st.sidebar.write("Customize suit scenarios here.")
+    
+    st.markdown("This is a placeholder for the Bidding in Competition Trainer.")
+    st.info("Trainer functionality is not yet implemented.")
+    
+elif st.session_state.page == "AM Trainer":
+    st.title("❤️ AM Trainer")
+    
+    st.sidebar.header("🛠️ AM Training Options")
+    st.sidebar.write("Customize suit scenarios here.")
+    
+    st.markdown("This is a placeholder for the AM Trainer.")
     st.info("Trainer functionality is not yet implemented.")
